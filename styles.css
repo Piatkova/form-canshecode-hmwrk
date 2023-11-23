@@ -24,3 +24,17 @@ body{
 .input{
     border: 2px solid black;
 }
+@media all and (max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container.one{
+        display: flex;
+        align-items: flex-start;
+    }
+    .container.two{
+        display: flex;
+        align-items: flex-start;
+    }
+}
